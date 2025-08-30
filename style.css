@@ -422,6 +422,55 @@ h3{
  .mission-h2::after {
    content: none;
  }
+/* ミッションページ　5つのゴールの設定 */
+ #mission-five-goals {
+   padding: 20px;
+   display: flex;
+ }
+ 
+ #mission-five-goals .five-goals-image {
+   width: 30%;
+   padding: 20px;
+ }
+ 
+ #mission-five-goals .five-goals-image img {
+   width: 100%;
+ }
+ 
+ #mission-five-goals .five-goals-read {
+   width: 70%;
+   padding: 20px;
+ }
+ 
+ #mission-five-goals .five-goals-read > div {
+   margin-bottom: 40px;
+ }
+ 
+ .fivegoals-image-right {
+   float: right;
+   margin: 20px;
+ }
+ 
+ .fivegoals-image-left {
+   float: left;
+   margin: 20px;
+ }
+ 
+ .fivegoals-number {
+   color: #2710d5;
+   font-size: 48px;
+   font-weight: bold;
+   margin: 0;
+ }
+ 
+ .fivegoals-h3 {
+   font-size: 28px;
+   margin: 0;
+ }
+ 
+ .fivegoals-p {
+   margin: 0;
+ }
   /* プロダクトページ */
 .product-main-inner {
   background-image: url("images/product/product-main.png");
